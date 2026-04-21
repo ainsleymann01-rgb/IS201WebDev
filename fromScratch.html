@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Utah</title>
+    <link rel="stylesheet" type="text/css" href="css/myStyles.css">
+</head>
+
+<body>
+
+    <!-- NAV / ANCHOR -->
+    <a href="index.html">Resume</a>
+    <a href="aiGame.html">Explorer Game</a>
+    <!-- HEADER -->
+    <div class="section">
+        <h1 id="top">Exploring Utah</h1>
+        <p class="subtitle">A guide to climbing, skiing, and adventure!</p>
+    </div>
+
+    <!-- CLIMBING -->
+    <div class="section">
+        <h2>Best Rock Climbing Routes in Utah</h2>
+
+        <ol>
+            <li>
+                Southern Utah
+                <ul>
+                    <li>Castleton Tower</li>
+                    <li>Supercrack of the Desert</li>
+                    <li>Spaceshot</li>
+                </ul>
+                <img src="assets/img/Castleton-Tower-1.jpeg" alt="Castleton Tower rock formation">
+            </li>
+
+            <li>
+                Northern Utah
+                <ul>
+                    <li>Pentapitch</li>
+                    <li>The Dihedrals</li>
+                    <li>The Coffin</li>
+                </ul>
+                <img src="assets/img/Coffin.jpg" alt="The Coffin climbing area">
+            </li>
+        </ol>
+    </div>
+
+    <!-- SKIING -->
+    <div class="section">
+        <h2>Best Skiing in Utah</h2>
+
+        <ol>
+            <li>
+                Resort Skiing
+                <ul>
+                    <li>Snowbird</li>
+                    <li>Snowbasin</li>
+                    <li>Alta</li>
+                </ul>
+                <img src="assets/img/snowbird.webp" alt="Snowbird ski resort">
+            </li>
+
+            <li>
+                Backcountry Skiing
+                <ul>
+                    <li>Mt. Superior</li>
+                    <li>Grizzly Gulch</li>
+                    <li>USA Bowl</li>
+                </ul>
+                <img src="assets/img/superior.jpeg" alt="Mount Superior backcountry skiing">
+            </li>
+        </ol>
+    </div>
+
+    <!-- MEDIA -->
+    <div class="section">
+        <h2>Utah in Motion</h2>
+
+        <p>Watch skiing on Mt. Superior:</p>
+
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/8KkkJKNYpHU"
+            title="YouTube video player"
+            allowfullscreen>
+        </iframe>
+
+        <p>Interactive Utah Snow Map:</p>
+
+        <!-- Tableau Embed -->
+        <div class='tableauPlaceholder' id='viz1776118948766'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Utah Snow Map'
+                    src='https://public.tableau.com/static/images/Ut/Utahsnowmap/Sheet3/1_rss.png'>
+                </a>
+            </noscript>
+
+            <object class='tableauViz'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='name' value='Utahsnowmap/Sheet3' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+            </object>
+        </div>
+
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1776118948766');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <!-- FOOTER / ANCHOR -->
+    <div class="section footer">
+        <p>© Exploring Utah | Built for outdoor adventure lovers</p>
+        <a href="#top">Back to Top ↑</a>
+    </div>
+
+</body>
+</html>
